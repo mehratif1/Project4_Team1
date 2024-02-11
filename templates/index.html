@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Credit Risk Predictor</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Hover Effect with jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="static/css/style.css">
+  <style>
+    /* Style the text initially */
+    .hover-text {
+      color: black;
+    }
+
+    /* Style the text on hover */
+    .hover-text:hover {
+      color: red;
+    }
+  </style>
+
+  
+</head>
+
+<body>
+
+  
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 jumbotron text-center">
+            <div class="col-md-12 jumbotron text-center" style="background: url('static/img/1_creditrisk.jpg') no-repeat center center fixed; background-size: cover; color: #efe4e4;"> 
+            <h1>Credit Risk Predictor</h1>
+            <p><strong>Show the light of Credit Score</strong</p>
+            
+
+          </div>
+        </div>
+       
+        </div>
+      </div>
+      <div class="container">
+        <h2>Credit Risk Prediction</h2>
+        <form action="{{ url_for('predict') }}" method="POST">
+        <div class="form-group">
+            <label for="ext_source_1">AMT_GOODS_PRICE:</label>
+            <input type="text" id="AMT_GOODS_PRICE" name="AMT_GOODS_PRICE">
+        </div>
+        <div class="form-group">
+            <label for="amt_annuity">DAYS_REGISTRATION:</label>
+            <input type="text" id="DAYS_REGISTRATION" name="DAYS_REGISTRATION">
+        </div>
+       
+        
+        <div class="form-group">
+            <label for="days_last_phone_change">DAYS_LAST_PHONE_CHANGE:</label>
+            <input type="text" id="days_last_phone_change" name="days_last_phone_change">
+        </div>
+        
+        <div class="form-group">
+            <label for="days_employed">DAYS_EMPLOYED:</label>
+            <input type="text" id="days_employed" name="days_employed">
+        </div>
+        <div class="form-group">
+            <label for="amt_credit">AMT_CREDIT:</label>
+            <input type="text" id="amt_credit" name="amt_credit">
+        </div>
+       
+        <!-- Add more input fields for other features -->
+        <div class="form-group">
+          <input type="submit" value="Predict" class="submit">
+        </div>
+        </form>
+        <p>Credit Status : {{ data }}</p>
+    </div>
+        
+        
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./static/js/app.js"></script>
+</body>
+</html>
