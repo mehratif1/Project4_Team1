@@ -82,4 +82,6 @@ https://www.kaggle.com/competitions/home-credit-default-risk/data
 ### Insights
 - These visualizations provide additional insights into the factors influencing loan repayment, enhancing the understanding gained from the model evaluation.
 
+![alt text](<Images/Web_form1 (1).png>)
 
+![alt text](Images/WEb_form2.png)
