@@ -88,3 +88,8 @@ This repository contains the deployment code for our machine learning model usin
 ![alt text](<Images/Web_form1 (1).png>)
 
 ![alt text](Images/WEb_form2.png)
+
+## Collaborators: 
+## Mehr Atif 
+## Daria Riechkina
+## Megha Rani
