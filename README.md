@@ -18,6 +18,17 @@ https://www.kaggle.com/competitions/home-credit-default-risk/data
 - pandas
 - lightgbm
 - scikit-learn
+- LabelEncoder
+- Flask
+- Pipeline
+- Tableau
+- Matplotlib
+- Seabone
+- Html
+- joblib
+- RandomForestClassifier
+- KFold
+- SMOTE
 
 
 ## Data Preprocessing
