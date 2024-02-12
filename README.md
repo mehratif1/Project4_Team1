@@ -1,5 +1,6 @@
 # Credit Risk Prediction
 
+![alt text](Images/Risk.jpg)
 
 
 ## Overview
