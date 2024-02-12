@@ -6,7 +6,7 @@
 ## Overview
 This project aims to predict the likelihood of clients facing difficulty in repaying loans. The dataset includes features such as external sources, loan amounts, and client demographics.
 
-[Link to the code](/Scripts/FinalScript.ipynb)
+[Link to the code](/Scripts/FinalScript.ipynb) <br>
 [Link to the Web Deployment code](/ScriptWEB/app.py)
 
 ## Data Source
