@@ -82,6 +82,9 @@ https://www.kaggle.com/competitions/home-credit-default-risk/data
 ### Insights
 - These visualizations provide additional insights into the factors influencing loan repayment, enhancing the understanding gained from the model evaluation.
 
+## Model Deployment with Flask and HTML
+This repository contains the deployment code for our machine learning model using Flask and HTML. The deployed model predicts if the clients will have difficulties in loan repayment or not after taking in input into the form.
+
 ![alt text](<Images/Web_form1 (1).png>)
 
 ![alt text](Images/WEb_form2.png)
