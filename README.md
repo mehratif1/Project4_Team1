@@ -1,4 +1,6 @@
-# 
+# Credit Risk Prediction
+
+
 
 ## Overview
 This project aims to predict the likelihood of clients facing difficulty in repaying loans. The dataset includes features such as external sources, loan amounts, and client demographics.
