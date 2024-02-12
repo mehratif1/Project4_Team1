@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Prediction Form</title>
+    <!-- Foundation CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.4/css/foundation.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #6a82fb, #fc5c7d); /* Vibrant gradient background */
+            color: #fff; /* Light text color for better contrast */
+        }
+        .form-container {
+            padding: 20px;
+            background: #ffffff; /* Keeping the form background white for clarity */
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+            margin-top: 20px; /* Added top margin for spacing from the header */
+        }
+        h2 {
+            text-align: center; /* Centering the title */
+            color: #333; /* Dark text for the title for contrast against the form background */
+        }
+        .button {
+            background-color: #6a82fb; /* Matching one of the gradient colors for consistency */
+            color: #fff; /* Ensuring button text is white for readability */
+            border: none; /* Removing default border */
+        }
+        .button:hover {
+            background-color: #fc5c7d; /* Hover color change to the other gradient color */
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+                <h2>Input Data for Prediction</h2>
+            </div>
+            <div class="large-12 cell form-container">
+                <form action="/predict" method="post">
+                    <label for="feature1">Normalized score from external data source 3:
+                        <input type="text" id="feature1" name="feature1" placeholder="Enter normalized score">
+                    </label>
+                    <label for="feature2">Normalized score from external data source 2:
+                        <input type="text" id="feature2" name="feature2" placeholder="Enter normalized score">
+                    </label>
+                    <label for="feature3">Normalized score from external data source 1:
+                        <input type="text" id="feature3" name="feature3" placeholder="Enter normalized score">
+                    </label>
+                    <label for="feature4">Loan annuity:
+                        <input type="text" id="feature4" name="feature4" placeholder="Enter loan annuity">
+                    </label>
+                    <label for="feature5">Number of days client changed the identity document:
+                        <input type="text" id="feature5" name="feature5" placeholder="Enter number of days">
+                    </label>
+                    <label for="feature6">Client's age in days:
+                        <input type="text" id="feature6" name="feature6" placeholder="Enter client's age in days">
+                    </label>
+                    <label for="feature7">How many days before application did client change phone:
+                        <input type="text" id="feature7" name="feature7" placeholder="Enter number of days">
+                    </label>
+                    <label for="feature8">How many days before the application did client change his registration:
+                        <input type="text" id="feature8" name="feature8" placeholder="Enter number of days">
+                    </label>
+                    <label for="feature9">How many days before the application the person started current employment:
+                        <input type="text" id="feature9" name="feature9" placeholder="Enter number of days">
+                    </label>
+                    <label for="feature10">Credit amount of the loan:
+                        <input type="text" id="feature10" name="feature10" placeholder="Enter credit amount">
+                    </label>
+                    <label for="feature11">The price of the goods for which the loan is given:
+                        <input type="text" id="feature11" name="feature11" placeholder="Enter the price">
+                    </label>
+                    <input type="submit" class="button" value="Predict">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Foundation JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.4/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
