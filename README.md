@@ -64,7 +64,7 @@ https://www.kaggle.com/competitions/home-credit-default-risk/data
 
 
 ### How to Access
-- To explore detailed visualizations, you can view the Tableau workbook provided in the [Tableau_Visualizations](Tableau_Visualizations) folder.
+- To explore detailed visualizations, you can view the Tableau workbook here [Explore Tableau Visualizations](https://public.tableau.com/app/profile/mehr.atif/viz/Credit_Risk_Project_17074485866060/Story1?publish=yes)
 
 ### Insights
 - These visualizations provide additional insights into the factors influencing loan repayment, enhancing the understanding gained from the model evaluation.
